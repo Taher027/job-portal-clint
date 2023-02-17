@@ -28,7 +28,7 @@ const SignUp = () => {
           <input
             type="email"
             name="email"
-            className="form-control w-full py-2 px-6 rounded mb-3 text-black"
+            className="form-control input input-bordered w-full max-w-xs text-black"
             id="floatingInput"
             placeholder="name@example.com"
             required
@@ -38,7 +38,7 @@ const SignUp = () => {
           <input
             type="text"
             name="name"
-            className="form-control w-full py-2 px-6 rounded mb-3 text-black"
+            className="form-control input input-bordered w-full max-w-xs text-black"
             id="floatingInput"
             placeholder="Name"
             required
@@ -48,7 +48,7 @@ const SignUp = () => {
           <input
             type="url"
             name="photoUrl"
-            className="form-control w-full py-2 px-6 rounded mb-3 text-black"
+            className="form-control input input-bordered w-full max-w-xs text-black"
             id="floatingInput"
             placeholder="Enter photo url"
             required
@@ -58,7 +58,7 @@ const SignUp = () => {
           <input
             type="password"
             name="password"
-            className="form-control w-full py-2 px-6 rounded mb-3 text-black"
+            className="form-control input input-bordered w-full max-w-xs text-black"
             id="floatingPassword"
             placeholder="Password"
             required
