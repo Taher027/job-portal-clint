@@ -23,7 +23,7 @@ const SignUp = () => {
 
   return (
     <div className="text-center mt-4 w-2/3 mx-auto">
-      <form className="flex items-center flex-col" onSubmit={handleSubmit}>
+      <form className="flex items-center flex-col  " onSubmit={handleSubmit}>
         <div className=" flex items-center">
           <input
             type="email"

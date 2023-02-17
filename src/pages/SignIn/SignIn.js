@@ -57,10 +57,10 @@ const SignIn = () => {
   };
 
   return (
-    <div className="h-[800px] flex justify-center items-center">
+    <div className="h-[800px] flex justify-center items-center  ">
       <div className="w-96 p-7">
         <h2 className="text-xl text-center font-semibold">Sign In</h2>
-        <form onSubmit={handleSubmit(handleLogin)}>
+        <form className="shadow-md p-5" onSubmit={handleSubmit(handleLogin)}>
           <div className="form-control w-full max-w-xs">
             <label className="label">
               {" "}
