@@ -50,7 +50,7 @@ const Header = () => {
           </ul>
         </div>
         <Link to={"/home"} className="btn btn-ghost normal-case text-xl">
-          text
+          Jobs Hack
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
