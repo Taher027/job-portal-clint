@@ -62,6 +62,9 @@ const Header = () => {
             <Link onClick={handleLogOut} className="btn btn-sm bg-[#533483]">
               SignOut
             </Link>
+            <Link to={"/home"}>
+              <button className="btn btn-sm ml-2">Post A Job</button>
+            </Link>
           </>
         ) : (
           <>
