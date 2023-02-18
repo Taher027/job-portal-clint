@@ -1,7 +1,6 @@
 import React from "react";
 
 const HomeJob = ({ job }) => {
-  console.log(job);
   const { title, descriptions, img } = job;
   return (
     <section>
